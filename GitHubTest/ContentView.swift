@@ -13,7 +13,7 @@ struct ContentView: View {
         HStack{
             Text("Bye, world and so on!")
                 .padding()
-            Text("Bye, world and so on!")
+            Text("Bye, world and so o                 dfgkdfhkgjhdfkgfg                 frgrfgrfghfhn!")
                 .padding()
         }
         
