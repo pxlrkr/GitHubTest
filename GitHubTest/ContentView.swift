@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var someText: String = "Show"
     var body: some View {
         
         HStack{
             Text("Bye, world and so on!")
                 .padding()
-            Text("Bye, world and so o                 dfgkdfhkgjhdfkgfg                 frgrfgrfghfhn!")
-                .padding()
-            Text("Bye, all world.")
-                .padding()
+            Button {
+                someText = "Bla-Bla-Bla"
+            } label: {
+                Text(someText)
+            }
+
         }
     }
 }
